@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Titulo:</strong>
+  <%= @pelicula.titulo %>
+</p>
+
+<p>
+  <strong>Genero:</strong>
+  <%= @pelicula.genero %>
+</p>
+
+<p>
+  <strong>Sinopsis:</strong>
+  <%= @pelicula.sinopsis %>
+</p>
+
+<p>
+  <strong>Paisdeorigen:</strong>
+  <%= @pelicula.paisdeorigen %>
+</p>
+
+<p>
+  <strong>Duracion:</strong>
+  <%= @pelicula.duracion %>
+</p>
+
+<p>
+  <strong>Calificacion:</strong>
+  <%= @pelicula.calificacion %>
+</p>
+
+<p>
+  <strong>Nombre director:</strong>
+  <%= @pelicula.nombre_director %>
+</p>
+
+<%= link_to 'Editar', edit_pelicula_path(@pelicula) %> |
+<%= link_to 'Atras', peliculas_path %>
